@@ -1,0 +1,287 @@
+/*
+----------------------------------------------------
+                    Elements
+----------------------------------------------------
+*/
+
+* {
+    font-family: Calibri, Comic Sans MS, Serif;
+}
+
+a {
+    margin: 5px 15px;
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+article p {
+    font-size: medium;
+    margin: 10px 0px;
+}
+
+body {
+    display: block;
+    margin: 30px auto;
+    height: 100%;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+figure {
+    margin: 0px;
+}
+
+footer {
+    background-color: darkorange;
+    border-radius: 0px 0px 5px 5px;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+footer p {
+    color: white;
+    margin: 0px;
+    padding: 11px;
+}
+
+h1 {
+    margin: 5px 15px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+h4 {
+    margin: 50px 0px 0px;
+}
+
+header img {
+    width: 100%;
+}
+
+header section p {
+    margin: 5px 15px;
+}
+
+hr {
+    margin: 4px 0px;
+}
+
+html {
+    background-image: url("./ht-green-assets/images/bg800bulbs.jpg");
+    background-color: #544d47;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+img {
+    display: block;
+}
+
+input, label {
+    display:block;
+}
+
+input, textarea {
+    display: block;
+    margin: 25px auto 50px auto;
+    height: 20px;
+    border: #9b9b9b 1px solid;
+    border-radius: 2px;
+    width: 94%;
+    height: 40px;
+    font-size: large;
+    padding: 0px 15px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+main {
+    margin: 15px 15px;
+}
+
+main ul li {
+    min-height: 250px;
+}
+
+nav {
+    width:100%;
+    text-align: center;
+}
+
+textarea {
+    height: 15vh;
+    resize: none;
+}
+
+th {
+    text-align: left;
+    border-right: 50px solid white;
+    font-size: large;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+/*
+-----------------------------------------------------
+                    Mobile Fix
+-----------------------------------------------------
+*/
+
+@media (max-width : 700px) {
+    body {
+        width: 90%;
+    }
+
+    input, textarea {
+        width: 89%;
+    }
+}
+
+/*
+---------------------------------------------------
+                    Classes
+---------------------------------------------------
+*/
+
+.area th {
+    font-size: medium;
+}
+
+.button {
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    margin: 30px;
+    width: 20%;
+    border: 1px solid gray;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.contact-form h1 {
+    margin:0px;
+    margin-left: 20px;
+    font-size:xx-large;
+    font-family:sans-serif;
+    font-weight:100;
+}
+
+.contact-table {
+    margin-left: 15px;
+    margin-bottom: 50px;
+}
+
+.contact-table h1{
+    margin: 0px;
+}
+
+.contact-table p{
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+.imagetoright {
+    max-width: 30%;
+    float: right;
+    border-radius: 5px;
+    margin-top:15px;
+}
+
+.number th {
+    border-bottom: 30px solid white;
+}
+
+.quick-links {
+    width: 97%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.quick-links img {
+    width: 5vh;
+    overflow: hidden;
+}
+
+.quick-links > a {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.quick-links nav ul {
+    width: 97%;
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+.reducesize {
+    min-height: 100px;
+}
+
+.resize {
+    width: 40%;
+}
+
+.required::after {
+    color: red;
+    content: ' *';
+}
+
+.solutions article p {
+    width: 65%;
+    display: inline-block;
+}
+
+.solutions article figure figcaption {
+    min-height: 250px;
+} 
+
+.testimonials h4 {
+    margin: 15px 15px 0px;
+}
+
+.testimonials hr {
+    margin: 4px 15px;
+}
+
+.testimonials article figure {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px;
+    border: 1px solid lightblue;
+    border-left: 8px solid lightblue;
+    padding: 10px 10px 20px;
+}
+
+.testimonials article figure img {
+    width: 20%;
+}
+
+.testimonials figure figcaption blockquote {
+    width: 80%;
+    margin: 0px 15px;
+}
+
+.testimonials figure figcaption cite {
+    width: 80%;
+    margin: 0px 15px;
+    font-weight: bold;
+}
